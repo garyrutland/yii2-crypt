@@ -1,0 +1,26 @@
+{
+    "name": "garyrutland/yii2-crypt",
+    "description": "Yii2 Crypt",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","crypt"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/garyrutland/yii2-crypt/issues",
+        "source": "https://github.com/garyrutland/yii2-crypt"
+    },
+    "authors": [
+        {
+            "name": "Gary Rutland",
+            "email": "gary.rutland@me.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "garyrutland\\crypt\\": ""
+        }
+    }
+}
