@@ -3,20 +3,10 @@
 namespace garyrutland\crypt;
 
 use yii\base\Component;
-use Exception;
 
 class Crypt extends Component
 {
     public $salt;
-
-    public function init()
-    {
-        parent::init();
-
-        if (!extension_loaded('mcrypt')) {
-            throw new Exception('Extension "mcrypt" not loaded');
-        }
-    }
 
     public function encrypt($data)
     {
